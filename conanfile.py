@@ -17,7 +17,7 @@ class game_engineRecipe(ConanFile):
 
     def requirements(self):
         self.requires("boost/[>=1 <2]")
-        #self.requires("utf8proc/[~2.8]")
+        #self.requires("utf8cpp/[~2.8]")
 
     def config_options(self):
         if self.settings.os == "Windows":
