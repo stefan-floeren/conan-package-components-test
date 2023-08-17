@@ -1,0 +1,16 @@
+/.vs/
+/.vscode/
+
+/bin/
+
+build*/
+venv*/
+tmp/
+doxygen_output/
+out/
+
+*.orig
+*.bak
+
+CMakeSettings.json
+CMakeUserPresets.json
